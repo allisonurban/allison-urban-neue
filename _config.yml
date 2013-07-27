@@ -1,0 +1,7 @@
+name: Allison Urban
+markdown: redcarpet
+pygments: true
+timezone: America/New_York
+ftp_host: s131667.gridserver.com
+ftp_dir: domains/allisonurban.com/html
+ftp_passive: false
