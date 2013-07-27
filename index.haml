@@ -1,0 +1,54 @@
+---
+layout: default
+title: Allison Urban
+subtitle: Aspiring Antarctic Adventurer.
+---
+  
+%section.row
+	%article.projects
+		%header.hd
+			%a.left{:href=>"http://allisonurban.com/portfolio"}
+				%h3 Portfolio // professional things
+			%a.view-all{:href=>"http://allisonurban.com/portfolio"}
+				%span View all
+		%ul.thumbs
+			%li.portfolio
+				%figure
+					%a{:href=>"portfolio/#mailchimp-2012-annual-report"}
+						%img{:src=>"{{ site.url }}/assets/portfolio/mailchimp-2012-annual-report.png"}
+						%figcaption
+							%h4 MailChimp Annual Report
+			%li.portfolio
+				%figure
+					%a{:href=>"portfolio/#sometimes"}
+						%img{:src=>"{{ site.url }}/assets/portfolio/sometimes.jpg"}
+						%figcaption
+							%h4 Sometimes There&rsquo;s a Man
+			%li.portfolio
+				%figure
+					%a{:href=>"portfolio/#mailchimp"}
+						%img{:src=>"{{ site.url }}/assets/portfolio/mailchimp.jpg"}
+						%figcaption
+							%h4 MailChimp
+      
+%section.row
+	%article.projects
+		%header.hd
+			%h3 Projects // love affairs
+		.bd
+			%p Top secret for now, but I can&rsquo;t wait to share them with you!
+                      
+%section.row
+	%article.goodreads
+		%header.hd
+			%a{:href=>"http://goodreads.com/allisonurban"}
+				%h3 Goodreads // recent reading
+		.bd
+			{% include goodreads.html %}
+	%article.seedthings
+		%header.hd
+			%a{:href=>"http://seedthings.tumblr.com"}
+				%h3 Seedthings // inspiration for stories
+		.bd
+			{% include tumblr.html %}
+
