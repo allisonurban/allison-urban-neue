@@ -88,10 +88,12 @@ a:visited {
 
 ul, ol,
 .plainlist {
+
 	list-style-type: none;
 	li {
-		margin-bottom: 5px; }
+		margin-bottom: 10px; }
 }
+
 .simplelist {
 	padding-left: 15px;
 	&:last-child {
@@ -100,12 +102,10 @@ ul, ol,
 ul.simplelist {
 	@extend .plainlist;
 	list-style-type: disc;
-  line-height: 1.6em;
 }
 ol.simplelist {
 	@extend .plainlist;
 	list-style-type: decimal;
-	line-height: 1.6em;
 }
 
 		
